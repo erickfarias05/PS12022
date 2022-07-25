@@ -9,7 +9,7 @@ namespace WebApplication1.Models
     {
         public long CategoriaId { get; set; } // Identificar
         public string Nome { get; set; }
-
+        public virtual ICollection<Produto> Produtos { get; set; }
 
     }
 }
